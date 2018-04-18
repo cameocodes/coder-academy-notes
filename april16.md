@@ -1,4 +1,13 @@
-# Authentication using Devise
+[< Back](README.md)
+
+# April 16th
+## Covering:
+- [Authentication Using Devise](#authentication-using-devise)
+- [Creating An Instagram Clone](#creating-an-instagram-clone)
+
+---
+
+## Authentication using Devise
 Website requires:
 - login/logout/sign up
 - users table
@@ -19,9 +28,9 @@ Website requires:
 - Keep profile details (name, address, contact etc) in a separate table to the user account table
 - Usernames aren't necessary, just make user log in with email address (unless social media, then offer username)
 
+---
 
-
-# Steps to Create Instagram Clone
+## Creating an Instagram Clone
 Steps wrapped in () are for installing Bootstrap in the process.
 - `rails new instarails`
 - `gem 'devise'` to gemfile and `gem 'rspec-rails', '~> 3.7'` to :development and :test group

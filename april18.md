@@ -1,16 +1,21 @@
+[< Back](README.md)
+
 # April 18th
-Covering
+## Covering:
 - [Geocoding](#geocoding)
 - [User Profiles](#recreating-instagram-with-profiles)
 
-### Geocoding
+---
+
+## Geocoding
 - Putting a Google Maps frame inside a website is done by using iframes (inline frames), which runs the Google Maps website inside the frame
 - iframes can be a security risk
 - `gem geocoder` for geocoding solution
-- `gem country_select`
+- `gem country_select` helper to generate HTML drop down list of all countries
 
+---
 
-### Recreating Instagram with Profiles
+## Recreating Instagram with Profiles
 Steps wrapped in () are for installing Bootstrap during the process.
 - `rails new instarails`
 - `gem 'devise'` to gemfile and `gem 'rspec-rails', '~> 3.7'` to :development and :test group

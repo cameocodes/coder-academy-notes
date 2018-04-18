@@ -1,3 +1,5 @@
+[< Back](README.md)
+
 # April 17th
 ## Covering:
 - [Agile](#agile-methodology)
@@ -8,12 +10,12 @@
 
 ---
 
-### Agile Methodology
+## Agile Methodology
 - Agile is delivering small packets of work (deliverables) towards a solution with a rough time frame, instead of working to a deadline
 
 ---
 
-### User Stories
+## User Stories
 - Identify problem/pains
 - Identify user stories
 - Create tasks for every user story
@@ -21,10 +23,12 @@
 - Identify solution
 - Prototype/test solution
 
-### Example User Stories
+## Example User Stories
 - As Ruegen, I want to post photos so that I can share my sweet sweet photos
 - As Ruegen, I want to register to the website so that I have my own account
 ----
+
+Common use cases:
 - register
 - login
 - upload
@@ -36,7 +40,7 @@
 
 ---
 
-### Stages of Design Thinking
+## Stages of Design Thinking
 - Empathy
     - Experiencing what your end user experiences
 - Reframe
@@ -51,9 +55,9 @@
 
 ---
 
-### Scrum Board Columns
-- Product backlog
-- User stories
+## Scrum Board Columns
+- Product Backlog
+- User Stories
 - To Do
 - In Progress
 - Testing

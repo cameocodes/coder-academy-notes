@@ -1,6 +1,5 @@
 # A Collection of Notes and Code Snippets From My Time At Coder Academy
 
-Contents
 - [April 16th](april16.md)
     - Authentication using Devise
     - Creating an Instagram clone that handles user login with Devise
