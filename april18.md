@@ -18,7 +18,7 @@
 ## Recreating Instagram with Profiles
 Steps wrapped in () are for installing Bootstrap during the process.
 - `rails new instarails`
-- `gem 'devise'` to gemfile and `gem 'rspec-rails', '~> 3.7'` to :development and :test group
+- `gem 'devise'`, `gem 'geocoder'`, `gem 'country_select'` to gemfile and `gem 'rspec-rails', '~> 3.7'` to :development and :test group
 - (add `gem 'bootstrap', '~> 4.1.0'` and `gem 'jquery-rails'` to Gemfile if adding Bootstrap)
 - `bundle install`
 - (`@import "bootstrap";` in `application.css` and rename to `.scss`, remove all `*= require` from file)
