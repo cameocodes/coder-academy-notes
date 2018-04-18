@@ -36,7 +36,7 @@ Steps wrapped in () are for installing Bootstrap during the process.
 - Add to routes:
 ```ruby
   get '/profile', to: 'profiles#show'
-  get '/profile/edit', to: 'profile#edit'
+  get '/profile/edit', to: 'profiles#edit'
   post '/profile', to: 'profiles#create'
   patch '/profile', to: 'profiles#update'
 ```
