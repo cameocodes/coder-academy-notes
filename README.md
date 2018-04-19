@@ -13,9 +13,6 @@
     - Geocoding
     - Creating an Instagram clone that allows user profiles and uses geocoding
 - [April 19th](april19.md)
-    - Github
-    - Setting Up
-    - Cloning/Forking
-    - Collaboration
+    - Github (Merge, Rebase, Pull Requests)
     - [Git Cheat Sheet](git-cheatsheet.md)
     - Geocoding Revision
