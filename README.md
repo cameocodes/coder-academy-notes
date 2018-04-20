@@ -1,3 +1,4 @@
+
 # A Collection of Notes and Code Snippets From My Time At Coder Academy
 
 - [April 16th](april16.md)
@@ -16,3 +17,6 @@
     - Github (Merge, Rebase, Pull Requests)
     - [Git Cheat Sheet](git-cheatsheet.md)
     - Geocoding Revision
+- [April 20th](april20.md)
+    - Git Refresher
+    - Creating an Instagram Clone with Pundit

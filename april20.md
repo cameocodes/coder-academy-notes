@@ -176,3 +176,4 @@ Pundit names policies after actions. If action is called `elephant`, the pundit 
 ## References
 - [rspec-rails Gem Docs](https://github.com/rspec/rspec-rails)
 - [pundit Gem Docs](https://github.com/varvet/pundit)
+- [Pundit Tutorial on FreeCodeCamp Medium](https://medium.freecodecamp.org/rails-authorization-with-pundit-a3d1afcb8fd2)
