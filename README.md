@@ -20,3 +20,7 @@
 - [April 20th](april20.md)
     - Git Refresher
     - Creating an Instagram Clone with Pundit
+- [April 23rd](april23.md)
+    - Using a Mailing Service
+    - Common Mailing Servers
+    - Creating an Instagram Clone with Mailer
