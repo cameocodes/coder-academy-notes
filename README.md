@@ -24,3 +24,10 @@
     - Using a Mailing Service
     - Common Mailing Servers
     - Creating an Instagram Clone with Mailer
+- [April 24th](april24.md)
+    - File Attachment Gems
+    - Using Shrine to Upload Images
+    - Adding Likes and Dislikes
+- [April 26th](april26.md)
+    - Using Stripe to Process Payments
+    - Deploying to Heroku
