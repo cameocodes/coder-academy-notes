@@ -130,7 +130,7 @@ end
 ```
 
 
-###  Params can be passed through:
+##  Params can be passed through:
 - Forms
 - URL params (?question=what%20are%20params&filter=20)
 - Routes

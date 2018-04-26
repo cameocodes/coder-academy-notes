@@ -7,25 +7,25 @@
 - [Creating an Instagram Clone with Mailer](#creating-an-instagram-clone-with-mailer)
 - [References](#references)
 ---
-#### SIGN UP FOR MAILGUN.COM BEFORE CONTINUING
+### SIGN UP FOR MAILGUN.COM BEFORE CONTINUING
 ---
-### Using a Mailing Service
+## Using a Mailing Service
 Reasons you might want to include a mailing service in your web app:
 - Mailing list / subscription
 - Error messages to devs
 - Confirmation emails to users
 - Notification emails to users
 ---
-### Common Mailing Servers
+## Common Mailing Servers
 - [Mailgun](https://www.mailgun.com/)
 - [Sendgrid](https://sendgrid.com/)
 ---
-### Navigating Mailgun
+## Navigating Mailgun
 - Sign in > Domains > Sandbox domain
 - Click on `Authorised Recipients` > `Invite New Recipient`
 - In sandbox mode Mailgun will only send emails to Authorized Recipients
 ---
-### Creating an Instagram Clone with Mailer
+## Creating an Instagram Clone with Mailer
 - Use the Mailgun gem (SendGrid also have a gem)
 - `rails new instarails_mailer`
 - `gem 'mailgun-ruby', '~> 1.1', '>= 1.1.9'` and `gem 'devise'` in Gemfile
@@ -124,6 +124,6 @@ Message:
 
 ---
 
-### References:
+## References:
 - [Mailgun Gem Docs](https://github.com/mailgun/mailgun-ruby)
 - [Action Mailer Basics](http://guides.rubyonrails.org/action_mailer_basics.html)

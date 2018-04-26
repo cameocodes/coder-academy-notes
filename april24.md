@@ -8,7 +8,7 @@
 - [References](#references)
 
 ---
-### File Attachment Gems
+## File Attachment Gems
 - Shrine
 - CarrierWave
 - Paperclip
@@ -20,7 +20,7 @@
 - Long story short just use Shrine, don't bother with CarrierWave or Paperclip
 
 ---
-### Shrine
+## Shrine
 - `rails new instashrine`
 - add `devise`, `rspec-rails`, `shrine`, `pundit`, `dotenv-rails` to gemfile
 - `bundle`
@@ -93,7 +93,7 @@ class ImageUploader < Shrine
 end
 ```
 ---
-### Adding Likes and Dislikes
+## Adding Likes and Dislikes
 
 - `rails g migration CreateJoinTableLikes user photo` 
 - Add to migration file:
@@ -144,6 +144,6 @@ before_action :set_photo, only: [:show, :edit, :update, :destroy, :like]
 ```
 
 ---
-### References
+## References
 - [Shrine Docs on Github](https://github.com/shrinerb/shrine)
 - [Shrine Website](http://shrinerb.com/)

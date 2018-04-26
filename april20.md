@@ -8,7 +8,7 @@
 
 ---
 ## Git Refresher
-#### GIT EARLY AND OFTEN
+### GIT EARLY AND OFTEN
 To add commit:
 - `git add .` (or select individual files to stage)
 - `git commit -m "[message here]`
@@ -33,7 +33,7 @@ To merge a branch with master:
 ---
 
 ## Creating an Instagram Clone with Pundit
-#### ON MASTER BRANCH
+### ON MASTER BRANCH
 - `rails new instarails_pundit -T` to create a new rails app without testing suite
 - `gem 'rspec-rails', '~> 3.7'` Add Rspec to Gemfile for testing
 - `gem 'dotenv-rails'` Add Dotenv to Gemfile for environment variables
@@ -54,7 +54,7 @@ USER_PASSWORD=password123
 - *Commit*
 - Checkout to devise branch using `git checkout -b devise`
 
-#### ON DEVISE BRANCH
+### ON DEVISE BRANCH
 - Add Devise to gemfile using `gem 'devise'`
 - `bundle` for Devise
 - `rails g devise:install` to install Devise
@@ -84,11 +84,11 @@ User.create!({
 - In `application_controller.rb` at `app > controllers` add `before_action :authenticate_user!`
 - *Commit*
 - Once devise is installed and complete `git checkout master` to go back to master branch
-#### ON MASTER BRANCH
+### ON MASTER BRANCH
 - Run `git merge devise` to merge devise with master
 - Push repo to remote (see [Git Refresher](#git-refresher) for command)
 - `git checkout -b pages` to create a new pages branch and checkout
-#### ON PAGES BRANCH
+### ON PAGES BRANCH
 - `rails g controller Pages home contact`
 - In `routes.rb` add:
 ```
@@ -98,10 +98,10 @@ get '/contact', to: 'pages#contact'
 ```
 - Local website should now be working!
 - Checkout back to master branch
-#### ON MASTER BRANCH
+### ON MASTER BRANCH
 - Merge pages branch with `git merge pages`
 - Make a new branch `git checkout -b images`
-#### ON IMAGES BRANCH
+### ON IMAGES BRANCH
 - `rails g scaffold Image user:references image_data:text description:text` to create scaffolding required for Image model
 - `rails db:migrate` to run migration
 > Creating an `info.md` file and running `history >> info.md` in terminal will append terminal command history to file. > will re-write file with newest data.

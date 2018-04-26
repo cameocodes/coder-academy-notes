@@ -7,7 +7,7 @@
 - [References](#references)
 
 ---
-### Stripe
+## Stripe
 
 - Going to use PostgreSQL for the database this time
 - Download [Postgres.app](http://postgresapp.com/) for GUI interface
@@ -96,7 +96,7 @@ resources :sneakers do
     end   
 ```
 ---
-### Deploying to Heroku
+## Deploying to Heroku
 - Navigate to project folder
 - `heroku login` with your Heroku account details
 - Ensure `gem pg` is in your Gemfile (run `bundle install` if you have to add it)
@@ -112,7 +112,7 @@ resources :sneakers do
 - `heroku run rails db:seed` if you need to seed the database
 
 ---
-### References
+## References
 - [Stripe Gem Github](https://github.com/stripe/stripe-ruby)
 - [PostreSQL website](http://postgresapp.com/)
 - [Stripe Guide](https://stripe.com/docs/checkout/rails)
